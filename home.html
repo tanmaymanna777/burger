@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body>
+    <header >
+        <div class="logo"><img src="assets\img\b5.jpg" style="width: 60px;height: 60px;margin-right: 5px;border-radius: 15px;" alt="">Cool<b style="color: rgb(197, 43, 15);"> Burger</b></div>
+        <div class="menu_main">
+        <ul>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Pages</li>
+        <li>Blog</li>
+        <li>Contact Us</li>
+    </ul>
+</div>
+        <div class="letstalk">
+            <div class="search_icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="letstalk_button"><p>Login Now</p></div>
+        </div>
+    </header>
+    <section class="home">
+        <img src="assets/img/b3.jpg" alt="burger_font" srcset="">
+        <div class="continent">
+            <div class="sub_content">
+                <h2>Cool Burger</h2><br>
+                <h1>YOU HAVE A PARTY - WE HAVE TASTY BURGERS!</h1><br>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. vitae molestiae repudiandae. A quo lorem etyeyh ey</P><br>
+                <div class="buttons_calls">
+                    <div class="button"><p>Order Now</p></div>
+                    <div class="call">
+                        <div class="logo">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="word">
+                            <h4 style="color: rgb(255, 81, 81);">Call Us</h4>
+                            <h5>+91 9647668179</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+  <section class="about-section">
+    <div class="about-img">
+      <!-- Replace the image URL below with your own -->
+      <img src="assets\img\about.png" alt="About Our Food">
+    </div>
+
+    <div class="about-text">
+      <h5>About Our Food</h5>
+      <h2>We Make The Best Burger In Your Town</h2>
+      <p>
+        The mouth-watering aroma of sizzling burgers now fills the streets of Birmingham thanks to the passionate pursuit of three brothers, the British founders of Fazfood.
+        After over 50 years of experience in the culinary industry between them, they set out on a journey to discover the ultimate burger.
+      </p>
+
+      <div class="about-icons">
+        <div class="icon-box">
+          <div class="icon-circle">
+            <i class="fa-solid fa-burger"></i>
+          </div>
+          <h4>A New Look On<br>The Right Food!</h4>
+        </div>
+
+        <div class="icon-box">
+          <div class="icon-circle">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+          </div>
+          <h4>The Use Of Natural<br>Best Quality Products</h4>
+        </div>
+
+        <div class="icon-box">
+          <div class="icon-circle">
+            <i class="fa-solid fa-motorcycle"></i>
+          </div>
+          <h4>Fastest On Your<br>Door Step</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <div class="container">
+<h1>POPULAR DISHES</h1>
+    <!-- Category pills -->
+    <div class="categories" role="tablist" aria-label="Food categories">
+      <button class="pill" data-cat="burger"><span class="icon">🍔</span> BURGER</button>
+      <button class="pill" data-cat="pizza"><span class="icon">🍕</span> PIZZA</button>
+      <button class="pill" data-cat="sushi"><span class="icon">🍣</span> SUSHI</button>
+      <button class="pill" data-cat="salads"><span class="icon">🥗</span> SALATS</button>
+      <button class="pill" data-cat="burrito"><span class="icon">🌯</span> BURRITO</button>
+      <button class="pill" data-cat="fastfood"><span class="icon">🍟</span> FAST FOOD</button>
+      <button class="pill active" data-cat="beverages" aria-pressed="true"><span class="icon">☕</span> BEVERAGES</button>
+    </div>
+
+    <!-- Items grid -->
+    <div class="grid" id="menuGrid">
+
+      <!-- Card 1 -->
+      <article class="card">
+        <div class="media-wrap">
+          <img src="assets\img\b1.jpg" alt="Beef 'n Cheddar bowl">
+        </div>
+
+        <button class="fav small-heart" aria-label="favorite">
+          <svg viewBox="0 0 24 24" class="heart"><path d="M12 21s-8-5.4-8-10a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 4.6-8 10-8 10z"/></svg>
+        </button>
+
+        <div class="card-body">
+          <h3>BEEF ‘N CHEDDAR</h3>
+
+          <div class="meta-row">
+            <div class="rating" aria-hidden="true">
+              <span>★★★★★</span>
+              <small>(5)</small>
+            </div>
+            <div style="width:42px"></div>
+          </div>
+
+          <p class="excerpt">Ea similique velit hic rerum officiis. Exercitationem quidem dolores nulla...</p>
+
+          <div class="price-row">
+            <div class="price">5.99$</div>
+            <div class="actions">
+              <button class="btn-cart" title="Add to cart" aria-label="Add to cart">🛒</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card">
+        <div class="media-wrap">
+          <img src="assets\img\b3.jpg" alt="Chicken tenders">
+        </div>
+
+        <button class="fav small-heart" aria-label="favorite">
+          <svg viewBox="0 0 24 24" class="heart"><path d="M12 21s-8-5.4-8-10a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 4.6-8 10-8 10z"/></svg>
+        </button>
+
+        <div class="card-body">
+          <h3>CHICKEN TENDERS</h3>
+
+          <div class="meta-row">
+            <div class="rating">
+              <span>★★★★★</span>
+              <small>(5)</small>
+            </div>
+            <div style="width:42px"></div>
+          </div>
+
+          <p class="excerpt">Quod aliquam doloremque qui nemo. Est nostrum optio natus esse fugit...</p>
+
+          <div class="price-row">
+            <div class="price">3.60$</div>
+            <div class="actions">
+              <button class="btn-cart" title="Add to cart" aria-label="Add to cart">🛒</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3 (classic chicken sandwich) -->
+      <article class="card">
+        <div class="media-wrap">
+          <img src="assets\img\b5.jpg" alt="Classic chicken sandwich">
+        </div>
+
+        <button class="fav small-heart" aria-label="favorite">
+          <svg viewBox="0 0 24 24" class="heart"><path d="M12 21s-8-5.4-8-10a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 4.6-8 10-8 10z"/></svg>
+        </button>
+
+        <div class="card-body">
+          <h3>CLASSIC CHICKEN </h3>
+
+          <div class="meta-row">
+            <div class="rating">
+              <span>★★★★★</span>
+              <small>(5)</small>
+            </div>
+            <div style="width:42px"></div>
+          </div>
+
+          <p class="excerpt">Atque omnis nesciunt tempore et doloribus. Vel ut vel ut veniam iusto...</p>
+
+          <div class="price-row">
+            <div class="price">2.35$</div>
+            <div class="actions">
+              <button class="btn-cart" title="Add to cart" aria-label="Add to cart">🛒</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+       <article class="card">
+        <div class="media-wrap">
+          <img src="assets\img\b.jpeg" alt="Classic chicken sandwich">
+        </div>
+
+        <button class="fav small-heart" aria-label="favorite">
+          <svg viewBox="0 0 24 24" class="heart"><path d="M12 21s-8-5.4-8-10a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 4.6-8 10-8 10z"/></svg>
+        </button>
+
+        <div class="card-body">
+          <h3> CHICKEN SANDWICH</h3>
+
+          <div class="meta-row">
+            <div class="rating">
+              <span>★★★★★</span>
+              <small>(5)</small>
+            </div>
+            <div style="width:42px"></div>
+          </div>
+
+          <p class="excerpt">Atque omnis nesciunt tempore et doloribus. Vel ut vel ut veniam iusto...</p>
+
+          <div class="price-row">
+            <div class="price">2.35$</div>
+            <div class="actions">
+              <button class="btn-cart" title="Add to cart" aria-label="Add to cart">🛒</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+
+
+  </div>
+    <!-- Footer section -->
+<section class="footer">
+  <p class="footer-text">
+    Fazfood is a unique and independent quick service brand. Fazfood burgers and shakes are made pretty hot and tasty.
+    The ultimate “melt in your mouth” experience. We are a fast-casual operation with dine in and take-away elements.
+  </p>
+  <button class="btn-viewall">
+    VIEW ALL <span class="arrow">➤</span>
+  </button>
+</section>
+  <section class="containerapp">
+    <div class="text-section">
+      <h5>MOBILE APP</h5><hr style="width: 90px;border: 1px solid red;"><br>
+      <h1>Download App for <br>Order Food Online</h1><br>
+      <h4>DELIVERY & TAKEOUT FROM THE BEST LOCAL RESTAURANTS.BREAKFAST, LUNCH, DINNER AND MORE.</h4><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+
+      <div class="app-buttons">
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" width="100" alt="Google Play"></a>
+        <a href="#" class="apple"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" width="120" alt="App Store"></a>
+      </div>
+    </div>
+
+    <div class="image-section">
+      <img src="assets\img\iphone.png" alt="Mobile App Screenshot">
+    </div>
+  </section>
+  <script>
+    // Basic interactivity: category selection, fav toggle, add-to-cart animation
+
+    document.querySelectorAll('.pill').forEach(btn=>{
+      btn.addEventListener('click', ()=> {
+        document.querySelectorAll('.pill').forEach(b=>b.classList.remove('active'));
+        btn.classList.add('active');
+
+        // (Optional) filter logic: for demo we'll just pulse grid when changing categories
+        document.getElementById('menuGrid').animate(
+          [{opacity:0.85, transform:'translateY(6px)'},{opacity:1, transform:'translateY(0)'}],
+          {duration:300, easing:'cubic-bezier(.2,.8,.2,1)'}
+        );
+      });
+    });
+
+    // Favorite toggles (heart)
+    document.querySelectorAll('.fav').forEach(f=>{
+      f.addEventListener('click', (e)=>{
+        f.classList.toggle('active');
+        // small animation
+        f.animate([{transform:'scale(1)'},{transform:'scale(1.08)'},{transform:'scale(1)'}], { duration:220, easing:'ease-out' });
+      });
+    });
+
+    // Add-to-cart animation
+    document.querySelectorAll('.btn-cart').forEach(btn=>{
+      btn.addEventListener('click', (e)=>{
+        btn.classList.add('pulse');
+        setTimeout(()=>btn.classList.remove('pulse'), 420);
+
+        // simple temporary "added" tooltip
+        const tip = document.createElement('div');
+        tip.textContent = 'Added';
+        tip.style.position='absolute';
+        tip.style.background='rgba(0,0,0,0.75)';
+        tip.style.color='#fff';
+        tip.style.padding='8px 10px';
+        tip.style.borderRadius='8px';
+        tip.style.fontSize='13px';
+        tip.style.transform='translateY(-6px)';
+        tip.style.pointerEvents='none';
+        tip.style.zIndex='9999';
+
+        // place near button
+        const rect = btn.getBoundingClientRect();
+        document.body.appendChild(tip);
+        tip.style.left = (rect.left + rect.width/2 - tip.offsetWidth/2) + 'px';
+        tip.style.top = (rect.top - 40) + 'px';
+
+        setTimeout(()=> tip.animate([{opacity:1, transform:'translateY(0)'},{opacity:0, transform:'translateY(-10px)'}], {duration:520}).onfinish = ()=> tip.remove(), 250);
+      });
+    });
+
+    // Accessibility: keyboard focus styling (optional)
+    document.addEventListener('keydown', (e)=>{
+      if(e.key === 'Tab'){
+        document.body.classList.add('show-focus');
+      }
+    });
+
+  </script>
+    <footer>
+        <div class="sub_footer">
+        <div class="about">
+            <h2 style="font-size: 30px; color: rgb(215, 215, 215);">Cool<b style="color: rgb(197, 43, 15);font-size: 27px;"> Burger</b></h2><br>
+            <p style="font-size: 17px; color: rgb(198, 195, 195); line-height: 25px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima unde, maiores reprehenderit molestias iusto explicabo qui! Provident, mollitia cum. Neque, odit eius?</p><br>
+            <div class="some_icon">
+                <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+                <div class="icon"><i class="fa-brands fa-x-twitter"></i></div>
+                <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+            </div>
+        </div>
+        <div class="usefull_links">
+            <h2 style="font-size: 25px; color: rgb(215, 215, 215);">Usefull Links</h2><br>
+            <ul>
+                <li><i class="fa-solid fa-angles-right"></i>Home</li>
+                <li><i class="fa-solid fa-angles-right"></i>Our Brand</li>
+                <li><i class="fa-solid fa-angles-right"></i>Carieer</li>
+                <li><i class="fa-solid fa-angles-right"></i>How it works</li>
+                <li><i class="fa-solid fa-angles-right"></i>Contact Us</li>
+            </ul>
+        </div>
+        <div class="favritemenus">
+            <h2 style="font-size: 25px; color: rgb(215, 215, 215);">Favourite Menus</h2><br>
+            <ul>
+                <li><i class="fa-solid fa-angles-right"></i>Burger</li>
+                <li><i class="fa-solid fa-angles-right"></i>Crispy Flavors</li>
+                <li><i class="fa-solid fa-angles-right"></i>Breakfast Menu</li>
+                <li><i class="fa-solid fa-angles-right"></i>Deserts</li>
+                <li><i class="fa-solid fa-angles-right"></i>Kids Menus</li>
+            </ul>
+        </div>
+        <div class="contacts">
+             <h2 style="font-size: 25px; color: rgb(215, 215, 215);">Contacts</h2><br>
+            <ul>
+                <li><i class="fa-solid fa-phone-volume"></i>+91 9647668179</li>
+                <li><i class="fa-regular fa-envelope"></i>tanmaymanna777@gmail.com</li>
+                <li><i class="fa-solid fa-location-dot"></i>Shilibar,Dhanghara,Purba Medinipur</li>
+            </ul>
+        </div>
+        </div>
+        <!-- <div class="hr">
+            <span>2025 Cool Burger All Rights Reserved.</span>
+            <span>Privacy Policy </span>
+        </div> -->
+    </footer>
+</body>
+</html>
